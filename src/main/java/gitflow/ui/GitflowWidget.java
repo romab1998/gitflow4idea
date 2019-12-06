@@ -77,7 +77,7 @@ public class GitflowWidget extends GitBranchWidget implements GitRepositoryChang
     }
 
     @Override
-    public WidgetPresentation getPresentation(@NotNull PlatformType type) {
+    public WidgetPresentation getPresentation() {
         return this;
     }
 
